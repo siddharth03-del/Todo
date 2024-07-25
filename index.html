@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo</title>
+    <link href="output.css" rel="stylesheet">
+
+</head>
+<body>
+    <h1 class="font-mono text-9xl text-yellow-300 font-bold max-w-fit mx-auto">Todo</h1>
+    <form class="mt-10">
+        <label class="font-mono text-xl">Task:</label>
+        <input class="w-4/5 h-14 rounded-3xl  bg-blue-300 hover:border-blue-900 border-2 placeholder:font-mono placeholder:font-bold placeholder:pl-4 placeholder:text-lg pl-4" type="text" name="" id="todo-input" placeholder="Enter the task name">
+        <button type="button" class="w-20 border-2 bg-blue-600 text-white font-bold h-14 rounded-2xl hover:bg-blue-900" id="addbutton" >Add</button>
+    </form>
+    <div class="mt-10 border-2 border-green-800 w-10/12 mx-auto rounded-3xl max-h-fit flex flex-col" id="todo-list">
+        <div class="bg-green-400 rounded-2xl border-2 border-black">
+            <h1 class="font-mono text-2xl text-green-700 font-bold max-w-fit mx-auto">Hello! Here is your list</h1>
+        </div>
+        <!-- <div class="flex flex-row mt-10 ml-4 max-h-fit">
+            <div class="pt-2">
+                <input checked="false" class="customize-checkbox" type="checkbox" name="checkbox" id="todo-check" title="checkbox" placeholder="checked">
+            </div>
+            <article class="text-wrap">
+                <p class="font-bold text-blue-500 text-xl ml-10 bg-yellow-100">
+                    kdsklfjflkjklfjklfjkljslkjdkljfkjflkjlkfjslkfjlkjflkjflkdjflkjlfkjdlkfjdlkfjlkfjlkjflkdjflkjflkjflkjdlfkjlkfjlkfjlkjflkjflkjflkjlfjdlfjljfljdflkjfljlkfjlfjdlkfjlkdfjlkjflkjflk
+                </p>
+            </article>
+            
+            <button type="button" class="border-2 font-bold text-white bg-green-400 rounded-2xl w-16 h-10 hover:bg-green-600">
+                Edit
+            </button>
+            <button type="button" class="border-2 font-bold text-white bg-green-400 rounded-2xl w-16 h-10 hover:bg-green-600">
+                Delete
+            </button>
+        </div> -->
+    </div>
+</div>
+<script src="script.js">
+</script>
+</body>
+</html>
